@@ -1,3 +1,4 @@
+import 'package:app/views/all_user_view.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(),
-      // home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const AllUserView(),
     );
   }
 }
